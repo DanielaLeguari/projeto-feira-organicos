@@ -14,9 +14,6 @@
 ### `yarn start`
 
 
-## Caso queira testar a aplicação acess o link com o deploy na Vercel no canto superior direito
-
-
 # Páginas da aplicação
 
 ## Login
