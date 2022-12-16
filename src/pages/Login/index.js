@@ -38,7 +38,7 @@ const Login = () => {
         </InputLabel>
         <Input
           type="number"
-          value={saldo}
+          value={Number(saldo).toFixed(2)}
           onChange={(event => setSaldo(event.target.value))}
           startAdornment={
             <InputAdornment position="start">

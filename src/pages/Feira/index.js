@@ -18,7 +18,7 @@ const Feira = () => {
       <Header>
         <div>
           <h2> Olá {nome}!</h2>
-          <h3> Saldo: R${saldo}</h3>
+          <h3> Saldo: R${Number(saldo).toFixed(2)}</h3>
         </div>
         <p>Encontre os melhores produtos orgânicos!</p>
       </Header>
