@@ -6,9 +6,7 @@ import { UsuarioProvider } from "common/context/Usuario";
 import { CarrinhoProvider } from 'common/context/Carrinho';
 import { PagamentoProvider } from 'common/context/Pagamento';
 
-
 export const Router = () => {
-
     return (
         <BrowserRouter>
             <Switch>
@@ -17,10 +15,10 @@ export const Router = () => {
                         <Login />
                     </Route>
                     <CarrinhoProvider>
-                        <Route path="/feira">
-                            <Feira />
-                        </Route>
                         <PagamentoProvider>
+                            <Route path="/feira">
+                                <Feira />
+                            </Route>
                             <Route path="/carrinho">
                                 <Carrinho />
                             </Route>

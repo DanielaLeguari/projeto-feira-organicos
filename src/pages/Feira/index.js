@@ -6,12 +6,12 @@ import {
 import feira from './feira.json';
 import Produto from 'components/Produto';
 import NavBar from './NavBar';
-import {useContext} from 'react';
+import { useContext } from 'react';
 import { UsuarioContext } from 'common/context/Usuario';
 
 
-function Feira() {
-   const {nome, saldo} = useContext(UsuarioContext);
+const Feira = () => {
+  const { nome, saldo } = useContext(UsuarioContext);
   return (
     <Container>
       <NavBar />

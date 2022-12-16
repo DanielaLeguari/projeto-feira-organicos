@@ -13,7 +13,7 @@ import { useHistory } from "react-router-dom";
 import { UsuarioContext } from 'common/context/Usuario';
 import { useContext } from "react";
 
-function Login() {
+const Login = () => {
   const history = useHistory();
   const { nome, setNome, saldo, setSaldo } = useContext(UsuarioContext);
 
